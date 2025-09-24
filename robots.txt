@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://rawbyrauw.github.io/ere-staffing/sitemap.xml
