@@ -53,6 +53,73 @@
   }
   </script>
 
+  <!-- Structured Data: LocalBusiness + EmploymentAgency (rich-result eligible) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness","EmploymentAgency"],
+    "@id": "https://rawbyrauw.github.io/ere-staffing/#local",
+    "name": "eRe Staffing",
+    "url": "https://rawbyrauw.github.io/ere-staffing/",
+    "image": "https://rawbyrauw.github.io/ere-staffing/logo.png",
+    "logo": "https://rawbyrauw.github.io/ere-staffing/logo.png",
+    "telephone": "+49 1577 4010314",
+    "email": "mailto:erestaffing@gmail.com",
+    "priceRange": "$$",
+    "areaServed": { "@type": "AdministrativeArea", "name": "Hazleton, PA" },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hazleton",
+      "addressRegion": "PA",
+      "postalCode": "18201",
+      "addressCountry": "US"
+    },
+    "sameAs": ["https://wa.me/4915774010314"],
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "08:00",
+      "closes": "17:00"
+    }],
+    "slogan": "Temporary Staffing Solutions",
+    "description": "Temporary staffing for logistics, manufacturing, food production, and packaging. Fast absentee coverage, overtime relief, and seasonal support."
+  }
+  </script>
+
+  <!-- Structured Data: FAQPage (rich-result eligible) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How fast can you cover call-offs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Same or next day in many cases within Hazleton and nearby industrial parks, using our pre-screened local workforce."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which industries do you serve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Logistics & warehousing, food production, manufacturing, and packaging. We deploy 2–5+ workers quickly for peaks and projects."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you handle compliance and payroll?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We partner with a U.S. Employer of Record for I-9/E-Verify, payroll, taxes, and compliance so your team stays focused on operations."
+        }
+      }
+    ]
+  }
+  </script>
+
   <style>
     :root{--navy:#1F2D3A;--slate:#3E4C59;--light:#F4F6F8;--accent:#20344A;--white:#ffffff;}
     *,*::before,*::after{box-sizing:border-box}
