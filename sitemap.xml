@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rawbyrauw.github.io/ere-staffing/</loc>
-    <lastmod>2025-09-24</lastmod>
+    <lastmod>2025-09-24</lastmod> <!-- put today's date here, e.g. 2025-09-24 -->
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
